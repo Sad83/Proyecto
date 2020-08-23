@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Consulta De Productos</string>
+
+
+    <string name="TituloTXT">CONSULTA DE PRODUCTOS</string>
+    <string name="WebServicesTXT">Con Web Services</string>
+
+    <string name="OpcionesTxt">OPCIONES</string>
+    <string name="BtnRealizarConsulta">Realizar Consulta</string>
+    <string name="BtnAcercaDe">Información de Aplicativo</string>
+    <string name="BtnIntegrantes">Integrantes</string>
+
+
+    <!--ACTIVIDAD CONSULTAS-->
+    <string name="RealizaConsultaTXT">Realiza una consulta</string>
+    <string name="id">Id PRODUCTO</string>
+    <string name="Btn_Buscar">Buscar Producto</string>
+    <string name="NombreET">NOMBRE DEL PRODUCTO</string>
+    <string name="PrecioET">PRECIO DEL PRODUCTO</string>
+    <string name="MarcaET">MARCA DEL PRODUCTO</string>
+
+    <!--CONSULTAS-->
+    <string name="Agregar">AGREGAR</string>
+    <string name="Actualizar">ACTUALIZAR</string>
+    <string name="Eliminar">ELIMINAR</string>
+
+
+    <!--ACTIVIDAD INFORMACIÓN-->
+    <string name="AplicacionDescripcion">Aplicación para realizar consultas de productos informáticos</string>
+    <string name="Laptops">Laptops</string>
+    <string name="Teclados">Teclados</string>
+    <string name="Impresoras">Impresoras</string>
+    <string name="Mouse">Mouse</string>
+
+
+</resources>

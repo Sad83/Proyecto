@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Consultas">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/RealizaConsultaTXT"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/id"
+                android:text="@string/id"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/Btn_Buscar"
+                android:text="@string/Btn_Buscar"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/img_buscar"
+                android:padding="10dp"
+                android:background="@drawable/boton_personalizado"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--PROPIEDADES DEL PRODUCTO-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:hint="@string/NombreET"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:hint="@string/PrecioET"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:hint="@string/MarcaET"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!--OPCIONES DE CONSULTA-->
+
+        <!--BOTÓN PARA AGREGAR PRODUCTO-->
+        <Button
+            android:id="@+id/Agregar"
+            android:text="@string/Agregar"
+            android:background="@drawable/boton_personalizado"
+            android:drawableStart="@drawable/img_agregar"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <!--BOTÓN PARA ACTUALIZAR PRODUCTO-->
+        <Button
+            android:id="@+id/Actualizar"
+            android:text="@string/Actualizar"
+            android:background="@drawable/boton_personalizado"
+            android:drawableStart="@drawable/img_actualizar"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+        <!--BOTÓN PARA ELIMINAR PRODUCTO-->
+        <Button
+            android:id="@+id/Eliminar"
+            android:text="@string/Eliminar"
+            android:background="@drawable/boton_personalizado"
+            android:drawableStart="@drawable/img_eliminar"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
